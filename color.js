@@ -41,7 +41,6 @@ function setUpSquares() {
             if (clickedColor === pickedColor) {
                 messageDisplay.textContent = "Correct";
                 changeColors(clickedColor);
-                console.log(clickedColor);
                 h1.style.backgroundColor = clickedColor;
                 resetButton.textContent = "Play Again?";
             } else {
